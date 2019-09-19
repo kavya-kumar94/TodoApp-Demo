@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Moment from 'moment';
 
 class Date extends Component {
+    
     render() {
         return (
             <div>
