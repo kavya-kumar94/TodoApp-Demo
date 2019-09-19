@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
-
+import FontAwesome from 'react-fontawesome';
 class Avatar extends Component {
     render() {
         return (
@@ -8,7 +8,7 @@ class Avatar extends Component {
                 <Row>
                     <Col xs={10}></Col>
                     <Col xs={2}>
-                        <Image src="https://cdn-images-1.medium.com/fit/c/200/200/1*qSozwB2ZQYFRd07N7rLzGw.jpeg" thumbnail circle />
+                        <FontAwesome name='user' />
                     </Col>
                 </Row>
             </div>

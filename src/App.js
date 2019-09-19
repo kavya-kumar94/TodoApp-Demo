@@ -4,6 +4,8 @@ import TaskList from './TaskList';
 import Date from './Date';
 import Avatar from './Avatar';
 import AddButton from './AddButton';
+import 'font-awesome/css/font-awesome.min.css'
+
 class App extends Component {
   constructor(props) {
     super(props);
